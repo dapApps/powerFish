@@ -12,6 +12,20 @@
 		4386CC30233C4E910073C53B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4386CC2E233C4E910073C53B /* Main.storyboard */; };
 		4386CC32233C4E910073C53B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4386CC31233C4E910073C53B /* Assets.xcassets */; };
 		4386CC35233C4E910073C53B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4386CC33233C4E910073C53B /* LaunchScreen.storyboard */; };
+		4386CC3D233C4F960073C53B /* Willem.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4386CC3C233C4F960073C53B /* Willem.jpg */; };
+		4386CC62233DBFD60073C53B /* willem sounds in Resources */ = {isa = PBXBuildFile; fileRef = 4386CC61233DBFD60073C53B /* willem sounds */; };
+		4386CC64233DBFF00073C53B /* blokes.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4386CC63233DBFEF0073C53B /* blokes.wav */; };
+		4386CC68233DC0120073C53B /* brothel.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4386CC67233DC0120073C53B /* brothel.wav */; };
+		4386CC6A233DC0170073C53B /* catch.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4386CC69233DC0160073C53B /* catch.wav */; };
+		4386CC6C233DC0190073C53B /* chook.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4386CC6B233DC0190073C53B /* chook.wav */; };
+		4386CC6E233DC01D0073C53B /* couple.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4386CC6D233DC01C0073C53B /* couple.wav */; };
+		4386CC70233DC01F0073C53B /* dog.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4386CC6F233DC01F0073C53B /* dog.wav */; };
+		4386CC72233DC0220073C53B /* goodFuck.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4386CC71233DC0220073C53B /* goodFuck.wav */; };
+		4386CC74233DC0250073C53B /* look.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4386CC73233DC0250073C53B /* look.wav */; };
+		4386CC76233EE8F20073C53B /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4386CC75233EE8F20073C53B /* HomeViewController.swift */; };
+		4386CC78233EFFC20073C53B /* Willem2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4386CC77233EFFC20073C53B /* Willem2.jpg */; };
+		4386CC7B233F02190073C53B /* flatty.png in Resources */ = {isa = PBXBuildFile; fileRef = 4386CC7A233F02190073C53B /* flatty.png */; };
+		4386CC7F2341840E0073C53B /* homeBTN.png in Resources */ = {isa = PBXBuildFile; fileRef = 4386CC7E2341840D0073C53B /* homeBTN.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +36,20 @@
 		4386CC31233C4E910073C53B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4386CC34233C4E910073C53B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4386CC36233C4E910073C53B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4386CC3C233C4F960073C53B /* Willem.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Willem.jpg; path = ../../../Willem.jpg; sourceTree = "<group>"; };
+		4386CC61233DBFD60073C53B /* willem sounds */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "willem sounds"; path = "../../../willem sounds"; sourceTree = "<group>"; };
+		4386CC63233DBFEF0073C53B /* blokes.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = blokes.wav; path = "../../../willem sounds/blokes.wav"; sourceTree = "<group>"; };
+		4386CC67233DC0120073C53B /* brothel.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = brothel.wav; path = "../../../willem sounds/brothel.wav"; sourceTree = "<group>"; };
+		4386CC69233DC0160073C53B /* catch.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = catch.wav; path = "../../../willem sounds/catch.wav"; sourceTree = "<group>"; };
+		4386CC6B233DC0190073C53B /* chook.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = chook.wav; path = "../../../willem sounds/chook.wav"; sourceTree = "<group>"; };
+		4386CC6D233DC01C0073C53B /* couple.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = couple.wav; path = "../../../willem sounds/couple.wav"; sourceTree = "<group>"; };
+		4386CC6F233DC01F0073C53B /* dog.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = dog.wav; path = "../../../willem sounds/dog.wav"; sourceTree = "<group>"; };
+		4386CC71233DC0220073C53B /* goodFuck.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = goodFuck.wav; path = "../../../willem sounds/goodFuck.wav"; sourceTree = "<group>"; };
+		4386CC73233DC0250073C53B /* look.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = look.wav; path = "../../../willem sounds/look.wav"; sourceTree = "<group>"; };
+		4386CC75233EE8F20073C53B /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		4386CC77233EFFC20073C53B /* Willem2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Willem2.jpg; path = ../../../Willem2.jpg; sourceTree = "<group>"; };
+		4386CC7A233F02190073C53B /* flatty.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = flatty.png; path = ../../../flatty.png; sourceTree = "<group>"; };
+		4386CC7E2341840D0073C53B /* homeBTN.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = homeBTN.png; path = ../../../homeBTN.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +84,24 @@
 			children = (
 				4386CC2A233C4E910073C53B /* AppDelegate.swift */,
 				4386CC2C233C4E910073C53B /* ViewController.swift */,
+				4386CC75233EE8F20073C53B /* HomeViewController.swift */,
 				4386CC2E233C4E910073C53B /* Main.storyboard */,
 				4386CC31233C4E910073C53B /* Assets.xcassets */,
+				4386CC63233DBFEF0073C53B /* blokes.wav */,
+				4386CC67233DC0120073C53B /* brothel.wav */,
+				4386CC69233DC0160073C53B /* catch.wav */,
+				4386CC6B233DC0190073C53B /* chook.wav */,
+				4386CC6D233DC01C0073C53B /* couple.wav */,
+				4386CC6F233DC01F0073C53B /* dog.wav */,
+				4386CC71233DC0220073C53B /* goodFuck.wav */,
+				4386CC73233DC0250073C53B /* look.wav */,
+				4386CC61233DBFD60073C53B /* willem sounds */,
 				4386CC33233C4E910073C53B /* LaunchScreen.storyboard */,
 				4386CC36233C4E910073C53B /* Info.plist */,
+				4386CC3C233C4F960073C53B /* Willem.jpg */,
+				4386CC77233EFFC20073C53B /* Willem2.jpg */,
+				4386CC7A233F02190073C53B /* flatty.png */,
+				4386CC7E2341840D0073C53B /* homeBTN.png */,
 			);
 			path = powerFish;
 			sourceTree = "<group>";
@@ -122,9 +164,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4386CC6C233DC0190073C53B /* chook.wav in Resources */,
+				4386CC6A233DC0170073C53B /* catch.wav in Resources */,
+				4386CC72233DC0220073C53B /* goodFuck.wav in Resources */,
+				4386CC74233DC0250073C53B /* look.wav in Resources */,
+				4386CC64233DBFF00073C53B /* blokes.wav in Resources */,
+				4386CC68233DC0120073C53B /* brothel.wav in Resources */,
+				4386CC70233DC01F0073C53B /* dog.wav in Resources */,
+				4386CC6E233DC01D0073C53B /* couple.wav in Resources */,
+				4386CC62233DBFD60073C53B /* willem sounds in Resources */,
+				4386CC7B233F02190073C53B /* flatty.png in Resources */,
 				4386CC35233C4E910073C53B /* LaunchScreen.storyboard in Resources */,
 				4386CC32233C4E910073C53B /* Assets.xcassets in Resources */,
 				4386CC30233C4E910073C53B /* Main.storyboard in Resources */,
+				4386CC7F2341840E0073C53B /* homeBTN.png in Resources */,
+				4386CC78233EFFC20073C53B /* Willem2.jpg in Resources */,
+				4386CC3D233C4F960073C53B /* Willem.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,6 +192,7 @@
 			files = (
 				4386CC2D233C4E910073C53B /* ViewController.swift in Sources */,
 				4386CC2B233C4E910073C53B /* AppDelegate.swift in Sources */,
+				4386CC76233EE8F20073C53B /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

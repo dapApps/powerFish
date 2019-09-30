@@ -1,30 +1,32 @@
 //
-//  ViewController.swift
+//  HomeViewController.swift
 //  powerFish
 //
-//  Created by Pat Phillips on 26/9/19.
+//  Created by Pat Phillips on 28/9/19.
 //  Copyright © 2019 dap apps. All rights reserved.
 //
 
 import UIKit
 import AVFoundation
 
-class ViewController: UIViewController, AVAudioPlayerDelegate {
-
+class HomeViewController: UIViewController {
+    
     var audioPlayer: AVAudioPlayer!
+    var randomAudio = 0
     
     let soundArray = ["blokes","brothel","catch","chook","couple","dog","goodFuck","look"]
     
+    @IBAction func homeButton(_ sender: Any) {
+       
+        randomAudio = Int.random(in: 0...7)
+        playSound(soundFileName: soundArray[randomAudio])
+        
+    }
+  
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+
     }
-    @IBAction func buttonPressed(sender: UIButton){
-    
-    playSound(soundFileName: soundArray[sender.tag - 1])
-        
-    }
-    
     func playSound(soundFileName : String){
         let soundURL = Bundle.main.url(forResource: soundFileName, withExtension: "wav")
         
@@ -37,15 +39,11 @@ class ViewController: UIViewController, AVAudioPlayerDelegate {
         }
         audioPlayer.play()
     }
-    
-    
-    
-    @IBAction func home(_ sender: UIButton) {
-        performSegue(withIdentifier: "segue2", sender: self)
+
+ 
+    @IBAction func SoundButton(_ sender: UIButton) {
+         performSegue(withIdentifier: "segue", sender: self)
     }
     
-    
-    }
 
-
-
+}
